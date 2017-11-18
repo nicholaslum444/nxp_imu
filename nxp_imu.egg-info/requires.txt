@@ -1,0 +1,3 @@
+build_utils
+smbus2
+fake_rpi

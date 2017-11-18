@@ -1,0 +1,12 @@
+setup.py
+nxp_imu/FXAS21002.py
+nxp_imu/FXOS8700.py
+nxp_imu/I2C.py
+nxp_imu/IMU.py
+nxp_imu/__init__.py
+nxp_imu/version.py
+nxp_imu.egg-info/PKG-INFO
+nxp_imu.egg-info/SOURCES.txt
+nxp_imu.egg-info/dependency_links.txt
+nxp_imu.egg-info/requires.txt
+nxp_imu.egg-info/top_level.txt

@@ -1,0 +1,97 @@
+<<< WARNING: using fake raspberry pi interfaces >>>
+<<< Using: <class 'nxp_imu.I2C.SMBus'> >>>
+nxp_imu.I2C.SMBus.__init__(1,)
+nxp_imu.I2C.SMBus.write_byte_data(31, 42, 0)
+nxp_imu.I2C.SMBus.write_byte_data(31, 14, 1)
+nxp_imu.I2C.SMBus.write_byte_data(31, 43, 2)
+nxp_imu.I2C.SMBus.write_byte_data(31, 42, 21)
+nxp_imu.I2C.SMBus.write_byte_data(31, 91, 31)
+nxp_imu.I2C.SMBus.write_byte_data(31, 92, 32)
+========================================
+FXOS8700
+  Accelerometer:
+    Addr: 0x1F
+    Range: +/- 4 G
+  Magnetometer:
+    Range: +/- 1200
+  Temperature: -57 C
+<<< WARNING: using fake raspberry pi interfaces >>>
+<<< Using: <class 'nxp_imu.I2C.SMBus'> >>>
+nxp_imu.I2C.SMBus.__init__(1,)
+nxp_imu.I2C.SMBus.write_byte_data(33, 13, 0)
+nxp_imu.I2C.SMBus.write_byte_data(33, 19, 10)
+========================================
+FXAS21002C Gyro
+  Addr: 0x21
+  Range: +/- 2000dps
+  Temperature: -41 C
+-------------------------------------------------------------------
+| Accels [g's]      |  Magnet [uT]         | Gyros [dps]          |
+-------------------------------------------------------------------
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [126, 126, 126, 126, 126, 126]
+|  0.91  0.91  0.91 |  745.3  745.3  745.3 | 2023.9 2023.9 2023.9 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [116, 116, 116, 116, 116, 116, 116, 116, 116, 116, 116, 116]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [99, 99, 99, 99, 99, 99]
+|  3.64  3.64  3.64 | 2981.2 2981.2 2981.2 | 1590.2 1590.2 1590.2 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [252, 252, 252, 252, 252, 252, 252, 252, 252, 252, 252, 252]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [249, 249, 249, 249, 249, 249]
+| -0.09 -0.09 -0.09 |  -77.2  -77.2  -77.2 |  -96.4  -96.4  -96.4 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [151, 151, 151, 151, 151, 151]
+|  0.56  0.56  0.56 |  462.6  462.6  462.6 | -1670.6 -1670.6 -1670.6 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [249, 249, 249, 249, 249, 249]
+|  0.19  0.19  0.19 |  154.2  154.2  154.2 |  -96.4  -96.4  -96.4 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [228, 228, 228, 228, 228, 228]
+|  0.47  0.47  0.47 |  385.5  385.5  385.5 | -433.8 -433.8 -433.8 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146, 146]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [187, 187, 187, 187, 187, 187]
+| -3.42 -3.42 -3.42 | -2801.4 -2801.4 -2801.4 | -1092.3 -1092.3 -1092.3 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [240, 240, 240, 240, 240, 240]
+|  3.01  3.01  3.01 | 2467.2 2467.2 2467.2 | -241.0 -241.0 -241.0 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [138, 138, 138, 138, 138, 138, 138, 138, 138, 138, 138, 138]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [245, 245, 245, 245, 245, 245]
+| -3.67 -3.67 -3.67 | -3007.0 -3007.0 -3007.0 | -160.7 -160.7 -160.7 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [163, 163, 163, 163, 163, 163, 163, 163, 163, 163, 163, 163]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [235, 235, 235, 235, 235, 235]
+| -2.89 -2.89 -2.89 | -2364.5 -2364.5 -2364.5 | -321.3 -321.3 -321.3 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [75, 75, 75, 75, 75, 75, 75, 75, 75, 75, 75, 75]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [129, 129, 129, 129, 129, 129]
+|  2.35  2.35  2.35 | 1927.5 1927.5 1927.5 | -2023.9 -2023.9 -2023.9 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [193, 193, 193, 193, 193, 193, 193, 193, 193, 193, 193, 193]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [209, 209, 209, 209, 209, 209]
+| -1.94 -1.94 -1.94 | -1593.5 -1593.5 -1593.5 | -738.9 -738.9 -738.9 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [176, 176, 176, 176, 176, 176]
+|  1.03  1.03  1.03 |  848.1  848.1  848.1 | -1269.0 -1269.0 -1269.0 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [215, 215, 215, 215, 215, 215, 215, 215, 215, 215, 215, 215]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [215, 215, 215, 215, 215, 215]
+| -1.25 -1.25 -1.25 | -1028.1 -1028.1 -1028.1 | -642.6 -642.6 -642.6 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [226, 226, 226, 226, 226, 226, 226, 226, 226, 226, 226, 226]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [254, 254, 254, 254, 254, 254]
+| -0.91 -0.91 -0.91 | -745.4 -745.4 -745.4 |  -16.1  -16.1  -16.1 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [220, 220, 220, 220, 220, 220, 220, 220, 220, 220, 220, 220]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [182, 182, 182, 182, 182, 182]
+| -1.10 -1.10 -1.10 | -899.6 -899.6 -899.6 | -1172.6 -1172.6 -1172.6 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [220, 220, 220, 220, 220, 220]
+|  2.98  2.98  2.98 | 2441.5 2441.5 2441.5 | -562.2 -562.2 -562.2 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [174, 174, 174, 174, 174, 174]
+|  2.82  2.82  2.82 | 2313.0 2313.0 2313.0 | -1301.1 -1301.1 -1301.1 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [125, 125, 125, 125, 125, 125, 125, 125, 125, 125, 125, 125]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [224, 224, 224, 224, 224, 224]
+|  3.92  3.92  3.92 | 3212.5 3212.5 3212.5 | -498.0 -498.0 -498.0 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [105, 105, 105, 105, 105, 105, 105, 105, 105, 105, 105, 105]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [210, 210, 210, 210, 210, 210]
+|  3.29  3.29  3.29 | 2698.5 2698.5 2698.5 | -722.9 -722.9 -722.9 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [38, 38, 38, 38, 38, 38]
+|  3.61  3.61  3.61 | 2955.5 2955.5 2955.5 |  610.4  610.4  610.4 |
+nxp_imu.I2C.SMBus.read_i2c_block_data(31, 1, 12): [82, 82, 82, 82, 82, 82, 82, 82, 82, 82, 82, 82]
+nxp_imu.I2C.SMBus.read_i2c_block_data(33, 1, 6): [256, 256, 256, 256, 256, 256]
+nxp_imu.I2C.SMBus.close()
+nxp_imu.I2C.SMBus.close()
